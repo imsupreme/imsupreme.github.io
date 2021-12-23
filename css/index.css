@@ -3228,7 +3228,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer {
   position: relative;
-  background: #49b1f5;
+  background: rgba(255,255,255,0.05);
   background-attachment: scroll;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -3238,19 +3238,21 @@ h1.page-title + .tag-cloud-list {
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--light-grey);
+  color: #ff69b4;
   text-align: center;
+  font-size: 120%;
+  font-weight: 500;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: #0000cd;
 }
-#footer-wrap a:hover {
+font-size: 120%:hover {
   text-decoration: underline;
 }
-#footer-wrap .footer-separator {
+.footer-separator {
   margin: 0 4px;
 }
-#footer-wrap .icp-icon {
+.icp-icon {
   padding: 0 4px;
   max-height: 1.4em;
   width: auto;
