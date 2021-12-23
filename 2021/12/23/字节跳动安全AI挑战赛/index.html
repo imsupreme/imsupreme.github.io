@@ -1,0 +1,377 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>5upreme | 5upreme</title><meta name="author" content="5upreme"><meta name="copyright" content="5upreme"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="字节安全 AI 挑战赛 – 色导用户识别 – ECNU_ICA                                                                               @ 千千">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5upreme">
+<meta property="og:url" content="https://imsupreme.github.io/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/index.html">
+<meta property="og:site_name" content="5upreme">
+<meta property="og:description" content="字节安全 AI 挑战赛 – 色导用户识别 – ECNU_ICA                                                                               @ 千千">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2021-12-23T11:10:05.481Z">
+<meta property="article:modified_time" content="2021-12-23T11:10:44.753Z">
+<meta property="article:author" content="5upreme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://imsupreme.github.io/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/5upreme" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '5upreme',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-12-23 19:10:44'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">5upreme</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">No title</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2021-12-23T11:10:05.481Z" title="Created 2021-12-23 19:10:05">2021-12-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2021-12-23T11:10:44.753Z" title="Updated 2021-12-23 19:10:44">2021-12-23</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><article id="post-5828" class="post-5828 post type-post status-publish format-standard has-post-thumbnail hentry category-arbitrary-gate tag-xgboost tag-281 tag-282 tag-245">
+                    <div class="thumbnails">
+            <img width="1067" height="600" src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_1.jpg" class="post-thumbnail img-responsive wp-post-image" alt="">        </div>
+                <div class="padding-content text-center">
+        <header class="entry-header">
+            <h1 class="entry-title"><a href="/2021_bytedance_security_ai_track1/5828.html" rel="bookmark" title="字节安全 AI 挑战赛 – 色导用户识别 – ECNU_ICA">字节安全 AI 挑战赛 – 色导用户识别 – ECNU_ICA</a></h1>        </header>
+                <div class="entry-meta">
+            <ul class="list-inline">                <li><span class="author vcard">
+                        @ <a class="url fn n" target="_blank" rel="noopener" href="https://www.dreamwings.cn/author/dreamwings">千千</a>                    </span>
+                </li>
+                <li>/</li>                <li><span class="posted-on"><i class="fa fa-star"></i> 发表于 2021 年 12 月 08 日</span></li>
+                <li>/</li>                <li><span class="posted-in"><i class="fa fa-tags"></i><a href="/stack/classification/arbitrary-gate" rel="category tag">任意门</a></span></li>                <li>/</li> <i class="fa fa-eye"></i> 85 次围观
+            </ul>
+        </div>
+                <div class="entry-content">
+            <h2>前言</h2>
+<p>大家好，今天来分享一下我们队（ECNU_ICA）在 2021 年字节跳动安全 AI 挑战赛色导用户识别方面的工作。</p>
+<p>先说名次，在经历了初赛、复赛以及决赛的重重竞争，最终我们拿到了全国第七的成绩。</p>
+<p>呜呜，虽然在决赛里是垫底的样子，但是我认为我们做的这些工作还是有一定的学习价值。</p>
+<p>也感谢各位大佬前来观摩~</p>
+<hr>
+<p><strong>这里再放几个相关链接：</strong></p>
+<ul>
+<li>Github 开源：<a href="https://github.com/imqxms/2021_bytedance_security_ai_track1_open" target="_blank" rel="nofollow">https://github.com/imqxms/2021_bytedance_security_ai_track1_open</a></li>
+<li>答辩视频：待更新…</li>
+<li>答辩 PPT：<a href="https://github.com/imqxms/2021_bytedance_security_ai_track1_open/blob/main/tutorial/ECNU_ICA%E7%AD%94%E8%BE%A9PPT.pdf" target="_blank" rel="nofollow">ECNU_ICA 答辩 PPT.pdf</a></li>
+<li>技术明细：<a href="https://github.com/imqxms/2021_bytedance_security_ai_track1_open/blob/main/tutorial/ECNU_ICA%E6%8A%80%E6%9C%AF%E6%98%8E%E7%BB%86.pdf" target="_blank" rel="nofollow">ECNU_ICA 技术明细.pdf</a></li>
+</ul>
+<p>&nbsp;</p>
+<h2>团队简介</h2>
+<p>放一张团队简介，我们团队横跨国内外三大高校。要问距离这么远我们是怎么结缘的，一切都源于，我们都是 imqxms. 社区的成员。</p>
+<p>继 2020 年 7 月底，imqxms. 首次线下聚会后~ 这也算是社区成员又一次因为同一件事情聚在了一起~</p>
+<p>哈哈哈，没有安排紧致的各种活动，大家都因为一些兴趣组成了这样一个小圈子~</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_4.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h2>赛题理解</h2>
+<h3>任务简介</h3>
+<p>本次赛题主要以网络黑产识别为背景，根据用户基本信息（如性别、个性签名、关注人数）、用户行为信息（如点赞数、评论数等）以及用户投稿信息来预测该用户是否为色情导流用户。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_6.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>评估指标</h3>
+<p>任务的评估指标选用 F-beta，这里的 beta 为 0.3，该指标可用于权衡预测结果的精准率以及召回率。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_7.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h2>特征工程</h2>
+<h3>基础特征</h3>
+<p>这里是数据集所能提供的所有基础特征，我们将这些特征分为三类：</p>
+<ol>
+<li>第一类是离散型特征，像省份、性别这种，类别与类别之间相关但没有顺序性的关系</li>
+<li>第二类是连续型特征，像年龄、粉丝数这种，值与值之间存在明显的有序性，可以相互比较大小</li>
+<li>第三类是序列型特征，这种主要包含像个性签名、视频标题一类本身不具有原子性，而是由更细的字或词根据特定顺序组合而来的信息</li>
+</ol>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_9.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>领域特征挖掘与构建</h3>
+<h4>导流方式概览</h4>
+<p>除此以外，想要深刻的理解任务以及做出更加合理的解决方案，需要我们对当前业务以及用户导流方式有一个基本的认知。</p>
+<p>&nbsp;</p>
+<p>因此，我们基于题目描述所知的信息调查了现有主流的几种用户导流方式：</p>
+<ol>
+<li>通过视频中或者头像中的二维码诱导扫描</li>
+<li>通过可提供文字的地方进行联系方式的投放（例如个性签名中的微信号等）</li>
+<li>通过可提供文字的地方投放短链接诱导用户点击进入网站</li>
+<li>通过诱导性话语、谐音字、象形字来描述语义并建立起的导流方式</li>
+<li>通过用户间的互动行为，在一个账号的视频下通过 @、评论、转发等方式导流用户进入到下一个账号</li>
+<li>利用同城功能在指定时间段投放相关信息，例如操作大批账号在抖音同城热门视频下集体评论，吸引有心之人点进主页，再根据个签中的联系方式引流到微信等平台</li>
+</ol>
+<p>&nbsp;</p>
+<p>当然，这些导流方式有的受限于当前所提供的数据难以实现，例如视频及头像信息缺失、文本信息已做脱敏处理等。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_10.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>个人主页中的导流方式</h4>
+<p>这里是关于个人主页中的一些引流方式的示例。</p>
+<p>&nbsp;</p>
+<p>考虑防止被现有模型检测以及过滤，色导用户的联系方式往往会通过象形字 / 同音字或 emoji 表情的方式引出，例如『v♥』代表微信、『加薇』之类的也代表微信添加的方式，也有『+q』代表 qq 的联系方式。</p>
+<p>有的联系方式之前使用冒号来分隔。</p>
+<p>部分用户在个性签名中也会留有导流途径的介绍，例如『看头像找我』，而头像中则包含二维码等信息。</p>
+<p>&nbsp;</p>
+<p>除了通过同音字 / 象形字 / emoji 表情引出联系方式以外，部分色导用户还会用这种手段摆明意图，例如最后一张图。</p>
+<p>&nbsp;</p>
+<p>当然，也存在正常的商业导流，但其行为与色情导流的差别在于<strong>是否刻意使用语义技巧来隐藏信息</strong>。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_11.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>同城导流</h4>
+<p>另外也有一些同城引流的示例，通常黑产团伙会设计好专门的话术，并且加上明显的 POI 地点，因为距离的接近，会使得导流成功的概率大大提升。</p>
+<p>例如操作大批账号在热门视频下评论，而部分账户的个人介绍或账号名中包含着城市名，这样一批评论会吸引有心之人点进主页，再根据一些隐含的联系方式导流到其他平台。</p>
+<p>&nbsp;</p>
+<p>根据调研发现，抖音『同城』功能中，深夜时段为色情导流用户的活跃期。</p>
+<p>这些结果都表明，在现有任务所提供的数据下，如何更好的去建模个性签名、投稿时间等信息对模型提升的潜力是很大的。</p>
+<p>&nbsp;</p>
+<p>但现阶段由于脱敏等缘故难以建模同音字或 emoji 等信息，因此我们考虑尽可能的基于脱敏文本挖掘有用的知识。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_12.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>领域特征构建</h4>
+<p>这里是具体特征构建的过程，针对个性签名以及投稿标题的序列特征，我们考虑色导用户通常使用谐音字 / 象形字 / emoji 来替代一些文字，而正常用户则不会。</p>
+<p>这会导致色导用户个签中可能存在一些标志性的字符或短语，这些字符或短语在正常用户中出现频率很低。</p>
+<p>&nbsp;</p>
+<p>因此，我们考虑拼接用户的个性签名及其所有投稿视频的标题，形成该用户的描述性文本。</p>
+<p>然后基于 TF-IDF 算法从该描述性文本中抽取前 3 个代表性的关键字。</p>
+<p>同时我们基于词袋模型为描述性文本进行编码，生成文本的词袋表征用于后续模型训练。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_13.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<p>针对用户个性签名及投稿视频标题中以链接进行导流的方式，</p>
+<p>我们设计规则来鉴别链接信息，主要是 http 及 https 两类，然后得出脱敏 index 与相关字符的一个映射关系。</p>
+<p>根据该规则，我们提取出用户个性签名及其视频标题中是否包含链接以及包含链接的数量作为特征。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_14.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<p>考虑到色导用户其个性签名中往往使用谐音字来隐藏信息，而谐音的一个来源则包括字母及数字。此外，有无联系方式的存在也是有无导流行为的一个鉴别依据。</p>
+<p>因此，在上一步确定 http 及 https 相关信息后，我们基于规则提取完整链接并做进一步的分析，迭代获得了链接中存在的字符、数字以及部分符号所对应的 index，进而将个签中所包含字母 / 数字 / 符号的数量作为了特征。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_15.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>特征聚合</h3>
+<p>在有了前面的基础特征和领域特征后，我们还采用特征聚合及特征交叉的方式生成新的特征。</p>
+<p>特征聚合就是说根据现有的一个或多个离散列执行聚合操作，并统计出其余列的一些统计信息。</p>
+<p>例如：每个用户的投稿数量、每个用户投稿地区覆盖了多少个省份 / POI、个性签名为空的用户的平均粉丝数是多少。</p>
+<p>&nbsp;</p>
+<p>在比赛中我们发现，投稿时间这一个特征训练集与测试集之间的分布差异非常大。</p>
+<p>在根据投稿时间的时间戳提取出一个月每一天的投稿量时，我们发现训练集中正常用户的投稿量随着月初到月末逐渐增加，而色导用户的投稿量也有着较为平滑的浮动曲线。</p>
+<p>同样的，测试集中投稿量随着天数的增加也有一定的变化规律，但其分布与训练集差异较大。</p>
+<p>实验中也发现了这一特征有穿越的现象（可能是构建数据集采样时出现了一些问题），因此综合考虑下最终我们仅保留了与时间大小无关的特征，例如平均投稿时间、总投稿时间跨度等。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_16.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>特征交叉</h3>
+<p>此外，针对一些特定的连续型特征，我们还考虑特征之间的交互容易组合出一些更为有用的新特征，</p>
+<p>例如播放时长 / 播放次数 = 平均播放时长、粉丝数 / 投稿数 = 平均每个投稿所获粉丝量，</p>
+<p>因此我们考虑通过加减乘除对候选的连续型特征进行组合。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_17.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h2>模型构建</h2>
+<h3>机器学习模型</h3>
+<p>基于前面得到的基础特征、领域特征以及特征聚合与特征交叉的结果，我们使用五折交叉验证的方法训练下游的树模型，主要测试过 lgb 以及 catboost 两个模型，最终在 catboost 中取得了复赛 0.9611 的成绩。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_19.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>深度学习模型</h3>
+<p>我们也尝试过将基础特征与领域特征送入深度学习模型，使用神经网络自动挖掘有用的组合特征。</p>
+<p>由于色导用户识别与推荐任务中的点击率预测在建模中有着相似性，因此我们主要用到 xDeepFM、AutoInt 以及 DCN 这几个模型，但实验效果都未达到预期。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_20.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>阈值选择</h3>
+<p>有了输入特征，有了模型，现在要训练使模型为每一个样本进行打分，打分结果接近于 1 的则更可能为色导用户。</p>
+<p>那便存在这样一个问题，究竟打分结果高于多少时认定该样本为色导用户。</p>
+<p>根据评估指标，我们的预测结果要权衡精准率以及召回率，因此，合适的分界可以更好的评估模型的优劣。</p>
+<p>这里我们基于五折交叉验证中所有验证集的预测结果，按打分从高到低枚举不同的黑样本数量并绘制 F-0.3 的变化曲线，最后选取峰值点的阈值比例用于划分测试集的预测结果。</p>
+<p>最终，我们的模型选用 2760 个黑样本作为划分依据（实际测试集黑样本数量应该是 3748）。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_21.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h3>实验相关</h3>
+<h4>其他尝试</h4>
+<p>除此以外，我们也做了许多其他的尝试，包括部分本地提升但在线评估效果降低的方案。</p>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_22.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>基础特征特征间相关性</h4>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/features_corr.png" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>基础特征经 catboost 训练后的特征重要性排行</h4>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/base_feature_importance.png" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h4>完整特征经 catboost 训练后的特征重要性排行</h4>
+<ul>
+<li>表中形如 <code>A * B</code>、<code>A + B</code> 为对应特征的交叉</li>
+<li>形如 <code>4807</code>、<code>6951</code> 这样纯数字的特征为个签及视频标题的词袋表征对应 index 的重要性</li>
+<li>形如 <code>sparse:user_up_info_group_var_(id)_poi_name_nunique</code> 为针对用户上传表中的 <code>id</code> 列执行 group 操作，取 poi_name 列的 nunique 数作为特征；<code>dense:</code> 开头的同理。</li>
+</ul>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/feature_importance.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h2>总结与反思</h2>
+<ol>
+<li>成绩永无止境，虽然我们的成绩在决赛队伍中处于垫底的水平，但重要的是在这次比赛中的收获。能够从前排队伍的分享中发现我们解决问题时的漏洞，才是最宝贵的。</li>
+<li>要仔细对待特征中的异常情况，就像我们队发现了用户投稿时间训练集与测试集分布差异大，但这个特征却会让模型本地效果拉满。而我们做过尝试后觉得投稿时间这个特征很难迁移到测试集，于是便删除了时间大小相关的一部分，这大概也是我们与前面分数差异最大的一个原因。</li>
+<li>最后，感谢主办方提供的这次学习的机会，受益匪浅！</li>
+</ol>
+<p><img src="https://static.dreamwings.cn/wp-content/uploads/2021/12/2021_bytedance_ai_challenge_ppt_24.jpg" alt="img" data-action="zoom"></p>
+<p>&nbsp;</p>
+<h2>QA 环节</h2>
+<p><strong>Q1: 有没有分析过为什么深度学习模型相比于树模型效果要差一些？</strong></p>
+<ul>
+<li>关于这一点首先可以分析一下深度学习模型和树模型在学习的过程中更注重哪些因素。深度学习模型本质是感知模型，数据体现什么现象它就往哪边靠。但树模型是基于信息熵，哪一列特征更具区分度就优先划分哪一个。<p></p>
+</li>
+<li>
+<p>在色导用户识别还有像推荐的一些任务里，正负样本以及长尾分布的现象是非常明显的，这对于深度学习模型来说就是噩梦，模型感知到大量的数据预测为某个标签时它就倾向于建模这些数据，从而导致长尾尾部的那些信息难以建模，这是此类任务对深度学习的难点。</p>
+</li>
+<li>
+<p>但树模型因为是基于一种可量化的规则建模的，本身并不会受到类似的影响。</p>
+</li>
+<li>这是之前分析到的一些点，但也不排除我们深度学习模型写的有点拉跨导致的。</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Q2: 有没有在特征重要性这块做过细致的分析，然后哪些特征更为重要，沿着这个方向深入挖掘？举例哪些是找到的，哪些是扩展出来的。</strong></p>
+<ul>
+<li>我们整个工作大体上是基于特征重要性来做的，例如发现某一个特征的重要性突然排到了前面，那便去分析这一个特征的 PSI 指标，判断特征在训练集与测试集上的一个稳定性，如果较为稳定，那我们会基于这一个特征进行一些组合、聚合或者是其他操作进行扩展。</li>
+<li>例如对于个性签名，我们抽取了 TF-IDF 关键字，而关键字这一个特征排到了特征重要性表的前面，后面我们分析可能存在许多谐音字然后和正常的字组合形成短语语义，因此反脱敏出所有的字母数字还有符号，并把相关的一些统计特征也加入到了模型中。当然，也有许多其他类似的工作。</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Q3: 从讲解中感觉在数据分析类的工作偏少一些，这部分是没有展示还是没有做？</strong></p>
+<ul>
+<li>关于数据分析我们是做过一些的</li>
+<li>例如针对时间特征，我们分析到训练集与测试集之间的分布差异，并做过类似于小时级别的时间平移（主要为了避免因为 0-24 本身是一个环的特征被建模成连续特征而丢失一些信息），但这一点最后没有取得效果的提升。最后尝试过一些方法后感觉难以建模就丢弃了时间大小相关的那部分特征。</li>
+<li>然后针对其他特征，我们也分析某些特征上的长尾现象明不明显，需不需要分段来建模该特征</li>
+<li>此外，我们也根据训练集及测试集中各个特征的 PSI 指标，用来分析该特征是否稳定，预判加入某个特征是否容易使模型出现过拟合的现象</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Q4: 有没有考虑模型鲁棒性的一些因素？</strong></p>
+<ul>
+<li>目前主要使用五折交叉验证，然后在五次训练的过程中对测试集的打分取平均，以此降低模型预测的 bias。</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Q5: 一类导流方式是通过大规模的发布然后诱导用户产生关联，但是在本次工作的介绍中没有看到相关的关联关系，这个是什么原因，是因为本身提供数据的限制还是基于什么样的考虑？</strong></p>
+<ul>
+<li>是的，目前提供的数据没有相关的信息。</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Q6: 有没有观察过一些误判的 case 是什么？这些误判的 case 主要是因为哪些特征导致的？</strong></p>
+<ul>
+<li>因为数据脱敏的原因，难以观察误判 case 的个性签名及其投稿的视频标题。</li>
+<li>我们主要针对阈值附近的一些误判 case 做过分析，但除了序列特征以外的其他特征并没有发现异常，因此主要怀疑是个性签名或视频标题中有一些奇怪的点存在。</li>
+</ul>
+<p>&nbsp;</p>
+<h2>参考文献</h2>
+<ul>
+<li><a href="https://baijiahao.baidu.com/s?id=1672996855270523715" target="_blank" rel="nofollow">抖音安全中心协助公安机关破获多起网络色情案件</a></li>
+<li><a href="https://www.163.com/dy/article/FMJTD3HT0519E3QB.html" target="_blank" rel="nofollow">一入夜，抖音同城就成了色情入口</a></li>
+<li><a href="http://cj.cri.cn/n/20200702/fea5bfed-4673-7fe9-a0cd-c331abbb8566.html" target="_blank" rel="nofollow">抖音发布公告：全力打击网络色情、黑色行为 封禁账号超5万</a></li>
+<li><a href="https://www.docin.com/p-2538025421.html" target="_blank" rel="nofollow">网络黑产协同治理研究报告</a></li>
+</ul>
+        </div>
+        <div id="donate">
+            <p>赏</p>
+            <img id="wechat_qr" src="https://static.dreamwings.cn/wp-content/uploads/2017/08/weixin_qr.png">
+            <img id="alipay_qr" src="https://static.dreamwings.cn/wp-content/uploads/2017/12/alipay_qr.png">
+    </div>
+                        <br>
+            <div class="entry-tags text-left">标签：<a href="/queue/xgboost" rel="tag">xgboost</a> <a href="/queue/%e5%86%b3%e7%ad%96%e6%a0%91" rel="tag">决策树</a> <a href="/queue/%e5%ad%97%e8%8a%82%e8%b7%b3%e5%8a%a8" rel="tag">字节跳动</a> <a href="/queue/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0" rel="tag">机器学习</a></div>
+            </div>
+</article></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">5upreme</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://imsupreme.github.io/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/">https://imsupreme.github.io/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/12/23/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">123</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avator.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">5upreme</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/imsupreme" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="/404006041@qq.com/" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#post-5828"><span class="toc-number">1.</span> <span class="toc-text">字节安全 AI 挑战赛 – 色导用户识别 – ECNU_ICA</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.2.</span> <span class="toc-text">团队简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.3.</span> <span class="toc-text">赛题理解</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.3.1.</span> <span class="toc-text">任务简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.3.2.</span> <span class="toc-text">评估指标</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.</span> <span class="toc-text">特征工程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.1.</span> <span class="toc-text">基础特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.2.</span> <span class="toc-text">领域特征挖掘与构建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.2.1.</span> <span class="toc-text">导流方式概览</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.2.2.</span> <span class="toc-text">个人主页中的导流方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.2.3.</span> <span class="toc-text">同城导流</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.2.4.</span> <span class="toc-text">领域特征构建</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.3.</span> <span class="toc-text">特征聚合</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.4.4.</span> <span class="toc-text">特征交叉</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.</span> <span class="toc-text">模型构建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.1.</span> <span class="toc-text">机器学习模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.2.</span> <span class="toc-text">深度学习模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.3.</span> <span class="toc-text">阈值选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.4.</span> <span class="toc-text">实验相关</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.4.1.</span> <span class="toc-text">其他尝试</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.4.2.</span> <span class="toc-text">基础特征特征间相关性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.4.3.</span> <span class="toc-text">基础特征经 catboost 训练后的特征重要性排行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#post-5828"><span class="toc-number">1.5.4.4.</span> <span class="toc-text">完整特征经 catboost 训练后的特征重要性排行</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.6.</span> <span class="toc-text">总结与反思</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.7.</span> <span class="toc-text">QA 环节</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#post-5828"><span class="toc-number">1.8.</span> <span class="toc-text">参考文献</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/" title="No title"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2021/12/23/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%B5%9B/" title="No title">No title</a><time datetime="2021-12-23T11:10:05.481Z" title="Created 2021-12-23 19:10:05">2021-12-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/12/23/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/" title="123"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="123"/></a><div class="content"><a class="title" href="/2021/12/23/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/" title="123">123</a><time datetime="2021-12-23T07:31:49.127Z" title="Created 2021-12-23 15:31:49">2021-12-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/12/17/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/12/17/hello-world/" title="Hello World">Hello World</a><time datetime="2021-12-17T08:31:54.211Z" title="Created 2021-12-17 16:31:54">2021-12-17</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 5upreme</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

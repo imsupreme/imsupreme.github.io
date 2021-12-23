@@ -1446,11 +1446,11 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 *::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: var(--btn-bg);
+  background: #b0c4de;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
